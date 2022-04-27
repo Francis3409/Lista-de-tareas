@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lista de tareas</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="todo">
+            <h1 id="titulo">Lista de Tareas</h1>
+            <div class="Nombreusuario">
+                  <form action="">
+                        <input type="text" placeholder="Nombre del usuario" id="nombre">   
+                  </form>
+                  <button type="button" onclick="nombre()">Guardar</button>
+                  <button type="button" onclick="mostrar()">mostrar</button>
+            </div>
+            <br>
+            <div class="conteo">
+
+                  <table border="1px">
+                        <tr>
+                              <th>Tareas totales</th>
+                              <th>Tareas finalizadas</th>
+                              <th>Tareas pendientes</th>
+                        </tr>
+                        <tr>
+                              <Td id="tareasto">0</Td>
+                              <td id="tareasfin">0</td>
+                              <td id="tareaspen">0</td>
+                        </tr>
+                  </table>
+            </div>
+
+            <br>
+
+            <div class="tareas">
+                  <h1 class="tare">Tareas</h1>
+                  <ul>
+                        <li id="agregado"></li>
+                   </ul>
+                   <button type="button" onclick="letras()">agregar tareas</button>
+            </div>
+
+      </div>
+
+      <script src="myscript.js"></script>
+</body>
+</html>

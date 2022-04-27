@@ -1,0 +1,35 @@
+body{
+      background-color: khaki;
+      text-align: center;
+      padding-left: 300px;
+}
+div{
+      background-color: white;
+      
+}
+.todo{
+      height: 600px;
+      width: 650px;
+
+}
+table{
+      height: 70px;
+      width: 600px;
+      text-align: center;
+     margin-left: 22px;
+}
+input{
+      height: 30px;
+      width: 500px;
+      text-align: center;
+}
+li{
+      list-style: none;
+}
+.tareas{
+      text-align: justify;
+      padding-left: 0;
+}
+.tare{
+      padding-left: 30px;
+}
